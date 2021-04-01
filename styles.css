@@ -1,0 +1,110 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body
+{
+	font-family: 'Roboto', sans-serif;
+	color: #333;
+	background-color: white;
+}
+
+section:first-of-type {
+	margin-top: 90px;
+	height: 400px;
+	background-color: #58a5f0;
+	display: flex;
+	justify-content: center;
+}
+
+article {
+	position: relative;
+	left: 70%;
+}
+
+canvas {
+	display: inline-block;
+	position: relative;
+	left: 1%;
+}
+
+form section legend {
+	text-align: center;
+	margin-top: 140px;
+	margin-bottom: 150px;
+	font-weight: bold;
+	color: white;
+}
+
+i {
+	font-size: 60px;
+	padding-bottom: 15px;
+}
+
+h1 {
+	text-decoration: none;
+	font-size: 40px;
+}
+
+div:first-of-type {
+	display: flex;
+	justify-content: center;
+}
+
+select:hover {
+    cursor: pointer;
+}
+
+#fileselect {
+	margin: 0px;
+	padding: 0px;
+}
+
+#messages {
+	display: flex;
+	flex-direction: column-reverse;
+	width: 500px;
+}
+
+.input-file-button {
+	padding: 6px 25px;
+	margin-right: 40px;
+	background-color: #004c8c;
+	border-radius: 4px;
+	color: white;
+	cursor: pointer;
+	font-size: 15px;
+	border: 0;
+	outline: 0;
+}
+
+.input-file-button:hover {
+	background-color:#00acc1;
+}
+
+/* The Modal (background) */
+.modal {
+	display: none; /* Hidden by default */
+	position: fixed; /* Stay in place */
+	z-index: 1; /* Sit on top */
+	left: 0;
+	top: 0;
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
+	overflow: auto; /* Enable scroll if needed */
+	background-color: rgb(0,0,0); /* Fallback color */
+	background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+	display: flex;
+	flex-direction: column;
+	background-color: #fefefe;
+	margin: 15% auto; /* 15% from the top and centered */
+	padding: 20px;
+	border: 1px solid #888;
+	width: 30%; /* Could be more or less, depending on screen size */                          
+}
